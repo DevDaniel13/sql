@@ -27,4 +27,15 @@
         </androidx.recyclerview.widget.RecyclerView>
     </LinearLayout>
 
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:elevation="3dp"
+        app:borderWidth="2dp"
+        android:src="@drawable/agregar_alumno"
+        android:id="@+id/agregarAlumno"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

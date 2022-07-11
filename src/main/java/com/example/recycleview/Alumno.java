@@ -31,6 +31,10 @@ public class Alumno implements Serializable {
         return carrera;
     }
 
+    public void setGrado(String carrera) {
+        this.carrera = carrera;
+    }
+
     public void setCarrera(String carrera) {
         this.carrera = carrera;
     }
